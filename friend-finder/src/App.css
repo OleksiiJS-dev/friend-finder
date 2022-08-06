@@ -28,7 +28,8 @@
     grid-template-areas: 
     "header header header header"
     "nav cp cp rsb"
-    "e pc pc rsb";
+    "nav pc pc rsb"
+    ;
     grid-gap: 0.2rem;
 }
 .header {
@@ -40,18 +41,20 @@
   grid-area: nav;
   background-color: aqua;
 }
-.main {
+/* .main {
   grid-area: m;
-  background-color: darkgoldenrod;
-}
+  background-color: darkgoldenrod; */
+/* } */
 .rsb {
   grid-area: rsb;
   background-color:violet;
 }
 .postcontainer {
   grid-area: pc;
+  background-color: blue;
 }
 .createpost {
   grid-area: cp;
+  background-color:crimson;
 }
 
