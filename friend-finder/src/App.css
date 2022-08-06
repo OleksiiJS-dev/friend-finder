@@ -1,0 +1,57 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and ( max-width:550px){
+  .App{
+    grid-template-columns: 1fr;
+    /* grid-template-rows: (EEEEEEEEEEEEEEEEEEe); */
+    grid-template-areas: 
+    ""
+    ""
+    ""
+    ""
+    "";
+    /* grid-gap: */
+  }
+}
+
+
+
+.App {
+  display: grid;
+  
+
+    grid-template-columns: repeat(4, calc(100%/4));
+    grid-template-rows: 1fr 10fr 10fr;
+    grid-template-areas: 
+    "header header header header"
+    "nav cp cp rsb"
+    "e pc pc rsb";
+    grid-gap: 0.2rem;
+}
+.header {
+  grid-area: header;
+  border-bottom-color: #000;
+    /* width: 100vw; */
+}
+.sidebar {
+  grid-area: nav;
+  background-color: aqua;
+}
+.main {
+  grid-area: m;
+  background-color: darkgoldenrod;
+}
+.rsb {
+  grid-area: rsb;
+  background-color:violet;
+}
+.postcontainer {
+  grid-area: pc;
+}
+.createpost {
+  grid-area: cp;
+}
+
