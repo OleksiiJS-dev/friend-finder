@@ -1,16 +1,11 @@
 import React from "react";
 import s from './Main.module.css'
+import Mainpostcreation from "../usertypes/MainPostCreation/Mainpostcreation";
 
 const Main = () => {
     return (       <>
             <div className="createpost">
-                <div className={s.createpost}>
-                    <input type="Write what you wish" />
-                    <button>*</button>
-                    <button>*</button>
-                    <button>*</button>
-                    <button>publish</button>
-                </div>
+            <Mainpostcreation />
             </div>
             <div className="postcontainer">
                 <div className={s.postcontainer}>
