@@ -8,7 +8,7 @@ import Righrsidebar from './components/Rightsidebar/Rightsidebar';
 function App() {
   return (
     <div className="App">
-      <Header />
+                <Header />
       <Leftsidebar />
       <Main />
       <Righrsidebar />

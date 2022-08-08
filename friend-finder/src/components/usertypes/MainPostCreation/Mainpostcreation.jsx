@@ -8,11 +8,12 @@ const Mainpostcreation = () => {
             <div className={s.user}>
                 <img className={s.avatarimage} src="https://demos.creative-tim.com/soft-ui-design-system/assets/img/team-2.jpg" alt="#" />
                 
-                </div>
-            <input></input>
-            <button></button>
+                
+                    <input></input>
+                    <a></a>
+                    <button className={s.mainbutton}>publish</button>
             </div>
-        
+            </div> 
         
     )
 }
